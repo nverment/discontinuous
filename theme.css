@@ -1,0 +1,137 @@
+/*Fonts*/
+:root {
+	
+	/* made by cheems */
+  
+	--default-font: "JetBrains Mono", monospace; 
+	--default-font: "DejaVu Sans Mono", monospace;
+	--default-font: "Roboto Mono", serif;
+  
+}
+
+body {
+	--radius-s: 0px;
+	--radius-m: 0px;
+	--radius-l: 0px;
+	--input-radius: 0px;
+	--tab-radius-active: 2px;
+	--checkbox-radius: 2px;
+	--toggle-radius: 2px;
+	--toggle-thumb-radius: 0px;
+	--slider-thumb-radius: 0px;
+
+	--border-width: 0px;
+
+	--size-2-1: 0px;
+	--size-2-1: 0px;
+
+	/* --font-family: "Ubuntu", serif; */
+
+	--line-height-normal: 1.4;
+
+}
+
+.workspace-tab-header.is-active::before, .workspace-tab-header.is-active::after {
+	display: none;
+}
+
+svg * {
+	stroke-linecap: square;
+	stroke-linejoin: miter;
+	rx: 0;
+	ry: 0;
+}
+
+.menu {
+	padding: var(--size-2-1);
+}
+
+.menu-item {
+	padding: var(--size-4-1) var(--size-4-2);
+}
+
+.menu-separator {
+	margin: var(--size-2-1) calc(var(--size-2-1) * -1);
+}
+
+.theme-dark {
+
+	--background-primary: #141415;
+	--background-secondary: #141415;
+	--background-secondary-alt: #141415; 
+	--background-modifier-border: #3D3B3F;
+
+	/* alterntative color variation */
+
+	/* --background-primary: #10050B; */
+	/* --background-secondary: #1F0A15; */
+	/* --background-secondary-alt: #3E1429;  */
+	/* --background-modifier-border: #0F050A; */
+
+	--text-normal: #CEDED9;
+	--text-faint: #B6CEC6;
+	--text-muted: #C3681D;
+	--text-selection: #B15E1B;
+
+	--text-highlight-bg: #694D75;
+
+	--background-modifier: #3E1429;
+
+	--bckground-modifer-border: #3E1429;
+
+	--interactive-accent: #004FFF;
+
+	--text-accent: #F0A8BE;
+	--text-accent-hover: #ED96B0;
+
+	--bold-color: #E18335;
+	--italic-color: #C3F73A; 
+
+	--h1-color: #5C8FFF;
+	--h2-color: #5C8FFF;
+	--h3-color: #5C8FFF;
+	--h4-color: #5C8FFF;
+	--h5-color: #5C8FFF;
+	--h6-color: #5C8FFF;
+
+}	
+  
+.theme-light {
+	--background-primary: white;
+	--background-secondary: white;
+	--background-secondary-alt: white; 
+	--background-modifier-border: #525053;
+
+	/* alterntative color variation */
+
+	/* --background-primary: #10050B; */
+	/* --background-secondary: #1F0A15; */
+	/* --background-secondary-alt: #3E1429;  */
+	/* --background-modifier-border: #0F050A; */
+
+	--text-normal: #21081F;
+	--text-faint: #21081F;
+	--text-muted: #21081F;
+	--text-selection: #FFDAD6;
+
+	--background-modifier: #E55812;
+
+	--bckground-modifer-border: #E55812;
+
+	--interactive-accent: #E55812;
+
+	--text-accent: #CE6C47;
+	--text-accent-hover: #CE6C47;
+
+	--bold-color: #960200;
+	--italic-color: #91972A;
+
+	--text-highlight-bg: #6eb0d6;
+
+	--h1-color: #CE6C47;
+	--h2-color: #CE6C47;
+	--h3-color: #CE6C47;
+	--h4-color: #CE6C47;
+	--h5-color: #CE6C47;
+	--h6-color: #CE6C47;
+}
